@@ -1,7 +1,7 @@
 <h1 align="center">LAGD-Net: Differentiable Block Gating for Depth Pruning of Residual Networks</h1>
 
 <p align="center">
-  Mohamed Hafez<sup>1</sup>, Shaina Raza<sup>2</sup>, Khalid Elgazzar<sup>1</sup><br>
+  Mohamed Hafez<sup>1,2</sup>, Shaina Raza<sup>2</sup>, Khalid Elgazzar<sup>1</sup><br>
   <sup>1</sup>IoT Research Laboratory, Ontario Tech University &nbsp; <sup>2</sup>Vector Institute
 </p>
 
