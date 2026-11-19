@@ -1,0 +1,74 @@
+{
+  "resnet50_cifar10_lam0.11": {
+    "arm": "lagnet",
+    "seed": 42,
+    "removed": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      12
+    ],
+    "k": 7,
+    "total": 16,
+    "agreement": 1.0,
+    "gmacs": 0.817584128,
+    "latency_ms": 2.934,
+    "latency_ms_runs": [
+      3.208,
+      2.934,
+      2.925
+    ]
+  },
+  "resnet50_cifar10_lam0.11_seed43": {
+    "arm": "lagnet",
+    "seed": 43,
+    "removed": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      11,
+      12
+    ],
+    "k": 8,
+    "total": 16,
+    "agreement": 1.0,
+    "gmacs": 0.745887744,
+    "latency_ms": 2.653,
+    "latency_ms_runs": [
+      2.653,
+      2.658,
+      2.644
+    ]
+  },
+  "resnet50_cifar10_lam0.11_seed44": {
+    "arm": "lagnet",
+    "seed": 44,
+    "removed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      11,
+      12
+    ],
+    "k": 9,
+    "total": 16,
+    "agreement": 1.0,
+    "gmacs": 0.656627712,
+    "latency_ms": 2.381,
+    "latency_ms_runs": [
+      2.388,
+      2.372,
+      2.381
+    ]
+  }
+}

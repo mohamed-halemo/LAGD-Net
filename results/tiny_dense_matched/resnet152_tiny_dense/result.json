@@ -1,0 +1,29 @@
+{
+  "phase1_val_acc": 66.58,
+  "blocks_removed": 0,
+  "total_blocks": 50,
+  "phase3_val_acc": 67.2,
+  "accuracy_drop": -0.62,
+  "train_time_h": 5.64,
+  "config": {
+    "dataset": "tiny_imagenet",
+    "model": "resnet152",
+    "lambda_sparsity": 0.0,
+    "epochs": 50,
+    "finetune_epochs": 55,
+    "per_gpu_batch": 64,
+    "base_lr": 0.1,
+    "warmup_epochs": 5,
+    "finetune_lr": 0.02,
+    "finetune_warmup": 3,
+    "label_smoothing": 0.1,
+    "grad_clip_norm": 2.0,
+    "start_temp": 5.0,
+    "end_temp": 0.1,
+    "seed": 42,
+    "use_sync_bn": true,
+    "world_size": 3,
+    "torch_version": "2.1.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

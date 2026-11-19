@@ -1,0 +1,15 @@
+{
+  "phase1_val_acc": 93.72,
+  "blocks_removed": 13,
+  "total_blocks": 16,
+  "phase3_val_acc": 76.67,
+  "accuracy_drop": 17.05,
+  "train_time_h": 1.1,
+  "config": {
+    "dataset": "cifar10",
+    "model": "resnet50",
+    "lambda_sparsity": 0.18,
+    "epochs": 50,
+    "finetune_epochs": 15
+  }
+}

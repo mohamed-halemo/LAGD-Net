@@ -1,0 +1,85 @@
+{
+  "dense_seed42": {
+    "arm": "dense",
+    "seed": 42,
+    "removed": [],
+    "k": 0,
+    "total": 33,
+    "agreement": 1.0,
+    "gmacs": 2.530822144,
+    "latency_ms": 10.799,
+    "latency_ms_runs": [
+      9.689,
+      10.799,
+      10.813
+    ]
+  },
+  "resnet101_attempt03": {
+    "arm": "lagnet",
+    "seed": null,
+    "removed": [
+      0,
+      1,
+      2,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "k": 18,
+    "total": 33,
+    "agreement": 1.0,
+    "gmacs": 1.2493312,
+    "latency_ms": 4.717,
+    "latency_ms_runs": [
+      4.856,
+      4.717,
+      4.607
+    ]
+  },
+  "tiny_g0.7_seed42": {
+    "arm": "sss",
+    "seed": 42,
+    "removed": [
+      0,
+      3,
+      7,
+      9,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      30,
+      31
+    ],
+    "k": 18,
+    "total": 33,
+    "agreement": 1.0,
+    "gmacs": 1.20067072,
+    "latency_ms": 4.687,
+    "latency_ms_runs": [
+      4.734,
+      4.663,
+      4.687
+    ]
+  }
+}

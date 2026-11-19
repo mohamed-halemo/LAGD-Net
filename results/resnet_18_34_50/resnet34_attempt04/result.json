@@ -1,0 +1,15 @@
+{
+  "phase1_val_acc": 62.78,
+  "blocks_removed": 6,
+  "total_blocks": 16,
+  "phase3_val_acc": 60.4,
+  "accuracy_drop": 2.38,
+  "train_time_h": 0.91,
+  "config": {
+    "dataset": "tiny_imagenet",
+    "model": "resnet34",
+    "lambda_sparsity": 0.2065,
+    "epochs": 50,
+    "finetune_epochs": 65
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "phase1_val_acc": 93.44,
+  "blocks_removed": 36,
+  "total_blocks": 50,
+  "phase3_val_acc": 92.76,
+  "accuracy_drop": 0.68,
+  "train_time_h": 2.81,
+  "config": {
+    "dataset": "cifar10",
+    "model": "resnet152",
+    "lambda_sparsity": 0.2,
+    "epochs": 50,
+    "finetune_epochs": 15,
+    "per_gpu_batch": 64,
+    "base_lr": 0.1,
+    "warmup_epochs": 2,
+    "finetune_lr": 0.05,
+    "finetune_warmup": 2,
+    "label_smoothing": 0.1,
+    "grad_clip_norm": 2.0,
+    "start_temp": 5.0,
+    "end_temp": 0.1,
+    "seed": 44,
+    "use_sync_bn": false,
+    "world_size": 1,
+    "torch_version": "2.1.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

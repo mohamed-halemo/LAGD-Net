@@ -1,0 +1,50 @@
+{
+  "arm": "sss",
+  "dataset": "cifar10",
+  "model": "resnet101",
+  "seed": 44,
+  "gamma": 0.010606060606060605,
+  "mu": 0.9,
+  "epochs": 65,
+  "blocks_removed": 14,
+  "total_blocks": 33,
+  "removed_blocks": [
+    2,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    31,
+    32
+  ],
+  "acc": {
+    "as_trained": {
+      "test": 94.32
+    },
+    "post_removal": {
+      "test": 94.32
+    }
+  },
+  "removal_changes_predictions": false,
+  "train_time_h": 2.13,
+  "config": {
+    "dataset": "cifar10",
+    "model": "resnet101",
+    "epochs": 65,
+    "per_gpu_batch": 128,
+    "base_lr": 0.1,
+    "warmup_epochs": 2,
+    "label_smoothing": 0.1,
+    "grad_clip_norm": 2.0,
+    "seed": 44,
+    "use_sync_bn": false,
+    "world_size": 1
+  }
+}
